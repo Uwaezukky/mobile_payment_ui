@@ -1,0 +1,53 @@
+name: mobile_payment
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+  - assets/images/
+
+  fonts:
+   - family: RussoOne
+     fonts:
+         - asset: assets/fonts/RussoOne-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+   - family: Play
+     fonts:
+         - asset: assets/fonts/Play-Bold.ttf
+         - asset: assets/fonts/Play-Regular.ttf
+
+   - family: Nunito
+     fonts:
+       - asset: assets/fonts/Nunito-ExtraBold.ttf
+       - asset: assets/fonts/Nunito-Regular.ttf
+
+   - family: Spartan
+     fonts:
+       - asset: assets/fonts/Spartan-Bold.ttf
+       - asset: assets/fonts/Spartan-SemiBold.ttf
+       - asset: assets/fonts/Spartan-Medium.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
